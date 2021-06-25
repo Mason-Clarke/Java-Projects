@@ -31,17 +31,16 @@ public class FIFAStats {
         String awayTeam = inputFile.nextLine();
         String group = inputFile.nextLine();
         String result = inputFile.nextLine();
-        MatchRecord tempRecord = new MatchRecord(round, dateAndTime, location, homeTeam, awayTeam, group, result);
-        matchList.add(tempRecord);
+        MatchRecord tempRecord = new MatchRecord(round, dateAndTime, location, homeTeam, awayTeam, group, result);        
       } else {
         String dateAndTime = inputFile.nextLine();
         String location = inputFile.nextLine();
         String homeTeam = inputFile.nextLine();
         String awayTeam = inputFile.nextLine();
         String result = inputFile.nextLine();
-        MatchRecord tempRecord = new MatchRecord(round, dateAndTime, location, homeTeam, awayTeam, result);
-        matchList.add(tempRecord);
+        MatchRecord tempRecord = new MatchRecord(round, dateAndTime, location, homeTeam, awayTeam, result);        
       }
+      matchList.add(tempRecord);
     }
 
     //Test displayTeams()
