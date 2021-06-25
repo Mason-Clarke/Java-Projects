@@ -46,21 +46,21 @@ public class MergeSort {
   */
  public static ArrayList<Institute> merge(ArrayList<Institute> l, ArrayList<Institute> r){
  ArrayList<Institute> result = new ArrayList<Institute>(l.size() + r.size());
-	if (l.size() + r.size()==0)
+	if (l.size() + r.size() == 0)
 	   return result;
-	else if (l.size() + r.size()==1)
+	else if (l.size() + r.size() == 1)
 	   return result;
 
-	int i=0,j=0,k=0;
-	while (i<l.size()&&j<r.size())
+	int i=0, j=0, k=0;
+	while (i < l.size() && j < r.size())
 	{
-		if (l.get(i).compareTo(r.get(j))<0)
+		if (l.get(i).compareTo(r.get(j)) < 0)
 		{
 			result.add(k, l.get(i));
 			k++;
 			i++;
 		}
-		else if (l.get(i).compareTo(r.get(j))>0)
+		else if (l.get(i).compareTo(r.get(j)) > 0)
 		{
 			result.add(k, r.get(j));
 			k++;
@@ -76,7 +76,7 @@ public class MergeSort {
 			j++;
 		}
 	}
-	if (j==r.size())
+	if (j == r.size())
 	{
 		while(i<l.size())
 		{
