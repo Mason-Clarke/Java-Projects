@@ -2,7 +2,7 @@ import java.util.*;
 
 /**
  * CSCI 2110
- * MatchStats.java
+ * MatchStats.java 
  * This is an object class that stores MatchRecord objects in an unordered list and implements methods for analyzing
  * match statistics
  * Created by Mason Clarke, March 6, 2021
