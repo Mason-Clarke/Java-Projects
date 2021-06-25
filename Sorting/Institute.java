@@ -5,7 +5,7 @@ import java.util.*;
  * Institution names, and then unit ID's. It is assumed that no two objects will have the same name and ID.
  * @author Mason Clarke
  * @date Feb 14, 2021
- */
+ */ 
 public class Institute{
 
   //Initialize instance variables
