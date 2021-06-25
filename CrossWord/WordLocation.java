@@ -1,6 +1,6 @@
 /**
  * CSCI 2110
- * @author Mason Clarke
+ * @author Mason Clarke 
  * @version 1.0
  * A WordLocation class that when a word is found in a word search grid allows for the creation
  * of a WordLocation object that stores the individual letter locations of the found word in the grid.
