@@ -1,6 +1,6 @@
 import java.util.*;
 import java.util.LinkedList;
-import java.util.Scanner;
+import java.util.Scanner; 
 
 /**
  * CSCI 2110
