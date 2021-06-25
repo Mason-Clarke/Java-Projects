@@ -2,10 +2,9 @@ import java.util.ArrayList;
 import java.util.*;
 
 /**
- * A class that defiens and implements a Binary Search algorithm for searching through ArrayList's of Institute objects.
+ * A class that defines and implements a Binary Search algorithm for searching through ArrayList's of Institute objects.
  * Search is performed based on Institute unitId's.
- * @author Original: Unknown
- * @author Modified by Mason Clarke
+ * @author Mason Clarke
  * @date Feb 14, 2021
  */
 public class BinarySearch{
@@ -21,7 +20,7 @@ public class BinarySearch{
 	public static int binSearch(ArrayList<Institute> inst, long key, int first, int last){
 		Long keyLong = key;
 		int mid = (first+last)/2;
-		while (first<=last){
+		while (first <= last){
 			if (keyLong.compareTo(inst.get(mid).getUnitId())<0)
 				last = mid-1;
 			else if (keyLong.compareTo(inst.get(mid).getUnitId())>0)
