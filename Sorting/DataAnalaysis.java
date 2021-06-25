@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-/**
+/** 
  * A demo program which is used to determine runtime complexity of various search and sort algorithms based on their
  * execution time. Analysis is being performed on an ArrayList of Institute objects. Execution times for each
  * search/sort are reported in ms.
@@ -130,8 +130,7 @@ public class DataAnalaysis{
 	 * @param inst ArrayList of Institute objects to be sorted
 	 * @return sorted list of Institute objects
 	 */
-	public static ArrayList<Institute> bubbleSort(ArrayList<Institute> inst)
-	{ 
+	public static ArrayList<Institute> bubbleSort(ArrayList<Institute> inst) { 
 		for (int i = 1; i < inst.size(); i ++) {
 			for (int j = 0; j < inst.size() - i; j ++) {
 				if (inst.get(j).compareTo(inst.get(j + 1)) > 0){
@@ -145,7 +144,7 @@ public class DataAnalaysis{
 	}
 
 	/**
-	 * A method which makes a call to the mergeSort method from the MergeSort class to perform a merge sort on an
+	 * A method which makes a call to the mergeSort method from the MergeSort class to sort an
 	 * ArrayList of Institute objects.
 	 * @param inst ArrayList of Institute objects to the sorted
 	 * @return the sorted ArrayList of Institute objects
@@ -162,7 +161,6 @@ public class DataAnalaysis{
 	 * @return true if objects is found and false otherwises
 	 */
 	public static boolean linearSearch(ArrayList<Institute> inst, int key) {
-		// COMPLETE THIS METHOD
 		for (int i = 0; i < inst.size(); i ++){
 			if(inst.get(i).getUnitId() == key){
 				return true;
@@ -179,7 +177,6 @@ public class DataAnalaysis{
 	 * @return true if given object is found and false otherwise
 	 */
 	public static boolean binarySearch(ArrayList<Institute> inst, long key) {
-		// COMPLETE THIS METHOD
 		int found = BinarySearch.binSearch(inst, key);
 		if (found == 1){
 			return true;
