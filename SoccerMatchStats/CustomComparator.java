@@ -2,7 +2,7 @@ import java.util.Comparator;
 
 /**
  * CSCI 2110
- * CustomComparator.java
+ * CustomComparator.java 
  * This is a Comparator class that is used for the purpose of sorting TeamWins objects based on the number of wins
  * for each team.
  * Created by Mason Clarke, March 6, 2021
