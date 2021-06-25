@@ -3,7 +3,7 @@ import java.util.*;
 
 /**
  * CSCI 2110
- * @author Mason Clarke
+ * @author Mason Clarke 
  * @version 1.0
  * A program that will take in the size of an NxN word search grid, the lines of letters of the grid, a number
  * of words and a word list, then searches the grid to find the number of matches of each word.
