@@ -3,7 +3,7 @@
  * TeamWins.java
  * This is an object class that stores a team name and the total number of wins for that team in the tournament
  * Created by Mason Clarke, March 6, 2021
- */
+ */ 
 public class TeamWins {
 
   private String team;
