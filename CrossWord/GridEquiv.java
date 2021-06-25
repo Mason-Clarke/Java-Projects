@@ -1,7 +1,7 @@
 import java.util.*;
 
 /**
- * CSCI 2110
+ * CSCI 2110 
  * @author Mason Clarke
  * @version 1.0
  * A program that will take in the data for an NxN and MxM word search grids, and a list of words and will
